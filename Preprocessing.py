@@ -4,6 +4,9 @@ from sklearn.preprocessing import StandardScaler
 # Load data
 df = pd.read_excel("ABS Tech Case 2026_Data.xlsx")
 
+# Capitalize entries in column for hispanic/latino
+df["HispanicLatino"] = df["HispanicLatino"].str.capitalize()
+
 # Columns to scale
 cols_to_scale = [
     "EngagementSurvey", "EmpSatisfaction", "SpecialProjectsCount",
