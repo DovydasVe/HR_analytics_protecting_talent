@@ -13,7 +13,8 @@ cols_to_scale = [
     "DaysLateLast30", "Absences", "ManPos", "TechLev", "JobStr",
     "ProjColl", "ProjSelf", "ProjLead", "TeamIden", "OrgIden",
     "CarOpp", "PsySafe", "Feedback", "Trust", "Network",
-    "AIUse", "AIConf", "TrainHours", "WLF", "InnoCont"
+    "AIUse", "AIConf", "TrainHours", "WLF", "InnoCont",
+    "PerfScore"
 ]
 
 # Convert selected columns to numeric (in case Excel stored them as text)
